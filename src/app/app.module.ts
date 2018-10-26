@@ -20,7 +20,7 @@ import { LsBuscadorLanzamientosComponent } from './ls-buscador/buscadorLanzamien
         LsBuscadorLanzamientosComponent
     ],
     imports: [
-        BrowserModule,
+        BrowserModule.withServerTransition({ appId: 'serverApp' }),
         HttpClientModule
     ],
     exports: [],
